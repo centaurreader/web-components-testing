@@ -1,0 +1,30 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Hybrid Select Web Component</title>
+            <link rel="stylesheet" href="/style.css">
+        </head>
+        <body>
+            <h1>Hybrid Select Web Component</h1>
+
+            <form>
+              <custom-dropdown class="i_select">
+                <label id="wc-select-demo" class="i_label">Select</label>
+                <select name="select-demo" aria-labelledby="wc-select-demo" required>
+                  <option value="">Choose one...</option>
+                  <option value="1">Customer Corporation LLC</option>
+                  <option value="2">Customer Corporation LLC 2</option>
+                  <option value="3">Customer Corporation LLC 3</option>
+                  <option value="4">Customer Corporation LLC 4</option>
+                  <option value="5">Customer Corporation LLC 5</option>
+                </select>
+              </custom-dropdown>
+              <input type="submit" />
+            </form>
+
+            <script src="dropdown.js"></script>
+        </body>
+    </html>
